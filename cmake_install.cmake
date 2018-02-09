@@ -1,4 +1,4 @@
-# Install script for directory: /home/dingyipeng/Documents/opencvprojects/app1
+# Install script for directory: /home/dingyipeng/Documents/opencvprojects/ImageProcessing1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dingyipeng/Documents/opencvprojects/app1/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dingyipeng/Documents/opencvprojects/ImageProcessing1/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

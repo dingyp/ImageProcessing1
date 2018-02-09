@@ -24,10 +24,11 @@ bool ROI_AddImage()
        logoImage.copyTo(imageROI,mask);  
    
        //【5】显示结果  
-       namedWindow("<1>利用ROI实现图像叠加示例窗口");  
-       imshow("<1>利用ROI实现图像叠加示例窗口",srcImage1);  
-   
-       return true;  
+    //    namedWindow("<1>利用ROI实现图像叠加示例窗口");  
+    //    imshow("<1>利用ROI实现图像叠加示例窗口",srcImage1);  
+        imwrite("newimg11.jpg",srcImage1);
+        cout<<"finished"<<endl;
+        return true;  
 }  
 
 int main(int argc, char** argv )
